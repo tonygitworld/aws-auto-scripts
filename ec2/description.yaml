@@ -1,0 +1,9 @@
+personal:
+ - eu-west-1a:
+   - type: t2.micro
+     image: tony
+     name: tony-instance
+     key: liyuguang-cm.txt
+     subnet: subnet-5c3bde04
+     ipaddr: 10.1.0.6
+     sg: [tony-default-sg]

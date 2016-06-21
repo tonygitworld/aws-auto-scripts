@@ -1,0 +1,27 @@
+info:
+  eu-west-1:
+    hvm_image: "ami-c39604b0"
+    base_sec_group: "sg-3803a65f"
+    sec_groups: ['sg-c63cb9a3','sg-1b800d7e']
+    subnet_ids: ['subnet-f86c648c']
+    vpc_subnet_id:
+        ap-northeast-1a: "subnet-f86c648c"
+        ap-northeast-1c: "subnet-c195bb87"
+  us-west-1:
+    hvm_image: "ami-e30705a6"
+    #base_sec_group: "sg-06cbd064"
+    base_sec_group: "sg-34cbd056"
+    sec_groups: ['sg-f305cf96','sg-35cbd057','sg-3bcbd059']
+    subnet_ids: ['subnet-32eff750','subnet-b3eeb5f5']
+    #subnet_ids: ['subnet-4ba8bc29','subnet-9c6331da']
+    vpc_subnet_id:
+        us-west-1c: "subnet-32eff750"
+        us-west-1b: "subnet-b3eeb5f5"
+  ap-northeast-1:
+    hvm_image: "ami-f86f72f9"
+    base_sec_group: "sg-375ebd52"
+    sec_groups: ['sg-c63cb9a3','sg-1b800d7e']
+    subnet_ids: ['subnet-f86c648c']
+    vpc_subnet_id:
+        ap-northeast-1a: "subnet-f86c648c"
+        ap-northeast-1c: "subnet-c195bb87"
